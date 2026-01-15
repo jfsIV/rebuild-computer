@@ -17,6 +17,7 @@ if [[ $INSTALL_OPENMC == "yes" ]]; then
     cd build
     cmake -DCMAKE_INSTALL_PREFIX=$HOME/.local ..
     make -j 12
+    make install
 fi
 
 
